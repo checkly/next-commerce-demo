@@ -15,13 +15,6 @@ $ NODE_ENV=development node __checks__/home.check.js
 
 ## Caveats
 
-Checkly doesn't support `@playwright/test` yet, so we use the Jest `expect` package. [This is coming](https://github.com/checkly/public-roadmap/issues/167)
-and added our own boilerplate for spinning up a Chrome browser with common settings.
-
-## Run minimal version locally
-
-```bash
-yarn # run this command in root folder of the mono repo
-yarn dev
-```
+Checkly doesn't support `@playwright/test` yet, so we use the Jest `expect` package and added our own boilerplate for spinning up a Chrome browser with common settings.
+[Support for PW test is coming soon](https://github.com/checkly/public-roadmap/issues/167)
 
