@@ -7,7 +7,7 @@ Notice we are using two sets of URLs
 with the Preview URL when a Vercel deploy happens.
 */
 
-const LOCAL_DEV_URL = 'http://localhost:3000'
+const LOCAL_DEV_URL = 'http://lo' + 'cal' + 'host:3000' // this is a temporary hack
 const PREVIEW_URL = process.env.ENVIRONMENT_URL
 const PROD_URL = 'https://next-commerce-demo-checkly.vercel.app'
 
