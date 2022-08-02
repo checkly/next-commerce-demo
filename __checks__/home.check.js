@@ -8,7 +8,6 @@ async function run() {
   const title = await page.title()
   expect(title).toEqual("ACME Storefront | Powered by Next.js Commerce")
   await page.screenshot({ path: 'home_page.jpg' })
-  console.log('screenshot taken')
 
   await cleanUp(page, browser)
 }
