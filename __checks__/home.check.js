@@ -1,5 +1,5 @@
-const expect = require('expect')
-const { goToPage, cleanUp} = require('./helpers')
+const { expect } = require('expect')
+const { goToPage, cleanUp } = require('./helpers')
 
 // this script is synced to Checkly together with its local dependencies
 async function run() {

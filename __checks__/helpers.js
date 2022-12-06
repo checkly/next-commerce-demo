@@ -1,5 +1,5 @@
 const { chromium } = require('playwright')
-const expect = require('expect')
+const { expect } = require('expect')
 const checklyConfig = require('../checkly.config.js')
 
 async function goToPage(path) {
